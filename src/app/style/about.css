@@ -1,0 +1,39 @@
+.about-container{
+    padding-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: justify;
+    color: white;
+}
+.about-heading{
+    font-size: 2.25rem;
+    color: black;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+.about-text{
+    color: black;
+    padding-top: 1rem;
+    line-height:1.5 ;
+    margin: 0;
+}
+@media(min-width:768px){
+    .about-heading{
+        font-size: 3rem;
+    }
+    .about-text{
+        font-size: 1.125rem;
+    }
+}
+@media(max-width:768px){
+    .about-heading{
+        font-size: 1rem;
+    }
+    .about-container{
+        padding-top: 6rem;
+    }
+}
